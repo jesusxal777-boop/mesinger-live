@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mesinger Live</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- PANTALLA DE CARGA -->
+<div id="loader">
+    <div class="logo">MESINGER LIVE</div>
+    <div class="spinner"></div>
+    <p class="loading-text">Conectando al Vacío...</p>
+</div>
+
+<!-- CONTENIDO PRINCIPAL -->
+<div id="app" class="hidden">
+
+    <!-- TERMINAL ARG -->
+    <div class="terminal">
+        <div class="terminal-header">END://root_access</div>
+        <div class="terminal-body" id="terminalOutput">
+            <p>> Iniciando protocolo...</p>
+        </div>
+        <input type="text" id="terminalInput" placeholder="Escribe un comando...">
+    </div>
+
+    <!-- MESINGER LIVE -->
+    <div class="messenger">
+        <div class="messenger-header">Mesinger Live</div>
+        <div class="chat-box" id="chatBox"></div>
+        <input type="text" id="chatInput" placeholder="Enviar mensaje a Jake...">
+    </div>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+      </html>
